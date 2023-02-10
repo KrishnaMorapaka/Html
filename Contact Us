@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test91.css">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        margin-left: 20%;
+    }
+    h3{
+        text-align: center;
+    }
+    form{
+        background: #fff;
+    }
+    h1{
+        margin-top: 1px;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <img src="images.png" width="70px">
+    <h1>Test Pvt Ltd</h1>
+    <h3>Address:- #7-2-20/3,I I T M Research Park,Chennai-600001</h3><br><br><hr>
+<div class="container">
+    <h2><b>Contact Us</b></h2>
+    <form>
+        <label for="FirstName">First Name :</label>
+        <input type="text" name='FirstName'id="FirstName"placeholder="Your FirstName" required><br><br>
+        
+        <label for="LastName">Last Name :</label>
+        <input type="text" name="LastName" id="LastName" placeholder="Your LastName"required><br><br>
+        
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male" required>
+        
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female"required><br><br>
+
+        <label for="dateofbirth">Date Of Birth :</label>
+        <input type="date" name="date" id="dateofbirth" required><br><br>
+
+        <label for="location">Location :</label>
+        <input type="text" name="location" id="location" placeholder="Your Location" required><br><br>
+        
+        <input type="submit"  value="Submit"/>
+        <input type="reset" value="Reset">
+    </form>
+    <h1>About</h1>
+<h2>Test Pvt Ltd</h2><br>
+<h2>Address:- #7-2-20/3,I I T M Research Park,Chennai-600001</h2>
+</div>
+
+</body>
+</html>
